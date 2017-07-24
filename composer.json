@@ -1,0 +1,19 @@
+{
+    "name": "liudaye/designmodel",
+    "description": "this is a package",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "liudaye",
+            "email": "615742973@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\Creational\\":""
+        }
+    }
+}

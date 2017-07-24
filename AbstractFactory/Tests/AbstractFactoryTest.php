@@ -5,7 +5,9 @@ use DesignPatterns\Creational\AbstractFactory\HtmlText;
 use DesignPatterns\Creational\AbstractFactory\JsonFactory;
 use DesignPatterns\Creational\AbstractFactory\JsonText;
 use DesignPatterns\Creational\AbstractFactory\Text;
-class AbstractFactoryTest extends Text
+
+use PHPUnit\Framework\TestCase;
+class AbstractFactoryTest extends TestCase
 {
     public function testCanCreateHtmlText()
     {
